@@ -5,7 +5,7 @@ python3.x
 
 # Usage
 ```
-python [radix-search-ip/trie-search-dom].py [iplist/domainlist] [TS_Threatlist]
+python radix-search-ip.py iplist TS_Threatlist
 ```
 
 iplist format example  
@@ -14,13 +14,6 @@ iplist format example
 2.2.2.0/24  
 3.3.0.0/16  
 ```
-   
-domainlist format example  
-```  
-hogehoge.com
-fugafuga.co.jp
-mogemoge.jp
-```  
 
 if you want csv output, change last line to like below, 
 
